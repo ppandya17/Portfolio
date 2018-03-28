@@ -320,7 +320,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin-right: 12px;
 }
 .item-box i.icon-envelope{
-
+  background-image: url('../images/icon_mail.png');
 }
 .item-box .item-data{
  margin-top: 6px;
