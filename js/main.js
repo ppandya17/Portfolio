@@ -15,7 +15,33 @@ $(document).ready( function() {
 	// Hide logo
 	$('#tab-about').click(function() {
 	  $logo.slideUp('slow');
-	});	
+    });	
+    
+    // $('a').click(function() {
+    //     var p = $('a').prev('ul')
+    //     var lineheight = parseInt(p.css('line-height'))
+    //     if (parseInt(p.css('height')) == lineheight*3) {
+    //        p.css('height','auto');
+    //        $(this).text('---------- View Less ----------')
+    //     } else {
+    //        p.css('height',lineheight*3+'px');
+    //        $(this).text('---------- View More ----------')
+    //     }
+    // });
+
+
+    $('.vm li a').click(function() {
+        var p = $(this).prev('ul')
+        var lineheight = parseInt(p.css('line-height'))
+        if (parseInt(p.css('height')) == lineheight*3) {
+           p.css('height','auto');
+           $(this).text('---------- View Less ----------')
+        } else {
+           p.css('height',lineheight*3+'px');
+           $(this).text('---------- View More ----------')
+        }
+    });
+
 function animMeter(){
     $(".meter > span").each(function() {
                 $(this)
