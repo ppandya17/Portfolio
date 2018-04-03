@@ -427,6 +427,9 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   padding-right: .3em;
 } */
 
+.pro{
+  margin-top: 1em;
+}
 
 .work li p{
   clear: both;

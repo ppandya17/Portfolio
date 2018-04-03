@@ -37,7 +37,10 @@
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
   <script src="js/vendor/jquery.hashchange.min.js"></script>
   <script src="js/vendor/jquery.easytabs.min.js"></script>
-
+  
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  
   <script src="js/main.js"></script>
   <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -87,7 +90,7 @@
                   <a href="#resume" onclick="ga('set', 'page', '/resume'); ga('send', 'pageview');"><i class="icon-file-text"></i><span> Resume</span></a>
                 </li>
                 <li class='tab'>
-                  <a href="#portfolio" onclick="ga('set', 'page', '/portfolio'); ga('send', 'pageview');"><i class="icon-heart"></i><span> Portfolio</span></a>
+                  <a href="#portfolio" onclick="ga('set', 'page', '/portfolio'); ga('send', 'pageview');"><i class="icon-heart"></i><span> Projects</span></a>
                 </li>
                 <li class='tab'>
                   <a href="#contact" onclick="ga('set', 'page', '/contact'); ga('send', 'pageview');"><i class="icon-envelope"></i><span> Contact</span></a>
@@ -126,9 +129,9 @@
                                     <li>
                                         <a href="#contact" onclick="ga('set', 'page', '/contact'); ga('send', 'pageview');">Hire me for your next project</a>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="#features" onclick="ga('set', 'page', '/features'); ga('send', 'pageview');">Features</a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                         </div>
@@ -457,129 +460,269 @@
               <!-- Portfolio Tab Data -->
                 <div id="portfolio">
                     <section class="clearfix">
-                        <div class="g2">
-
-                        </div>
-                        <div class="g1">
-                            
-                        </div>
-                        <!-- <ul class="no-list work">
-                            <li>
-                                <div>
-                                    <h5>
-                                        Clinic App
-                                    </h5>
-                                </div>
-                                <br/>
-                                <div>
-                                    <h6>
-                                        Enterprise Software Architecture
-                                    </h6>
-                                </div>
-                                <br/>
-                                <div>
-                                    <ul>
+                        <h3 style="display: -webkit-inline-box;">
+                            Academic Projects
+                        </h3>
+                        <ul class="no-list work" style="overflow: hidden;" >
+                            <li style="overflow: hidden;">
+                                <div class="g2 pro">
+                                    <ul class="no-list work">
                                         <li>
-                                            Developed a clinic application managing details of patients, providers and treatment provided
-                                        </li>
-                                        <li>
-                                            Implemented REST and SOAP services using JAX-WS and JAS-RS respectively in EJB framework
-                                        </li>
-                                        <li>
-                                            Hosted on EC2 instance of AWS and Postgres database for Service Oriented Architecture using XML
-                                        </li>
-                                        <li>    
-                                            Used Apache Cassandra with DataStax DevCenter tool to demonstrate the use of Data Model in Cassandra
+                                            <div>
+                                                <h5>
+                                                    Clinic App
+                                                </h5><span class="label label-info">August 2016 - December 2016</span>
+                                            </div>
+                                            <br/>
+                                            <div>
+                                                <h6>
+                                                    Enterprise Software Architecture
+                                                </h6>
+                                            </div>
+                                            <ul style="clear:both; list-style-type: circle !important;">
+                                                <li>
+                                                    Developed a clinic application managing details of patients, providers and treatment provided
+                                                </li>
+                                                <li>
+                                                    Implemented REST and SOAP services using JAX-WS and JAS-RS respectively in EJB framework
+                                                </li>
+                                                <li>
+                                                    Hosted on EC2 instance of AWS and Postgres database for Service Oriented Architecture using XML
+                                                </li>
+                                                <li>    
+                                                    Used Apache Cassandra with DataStax DevCenter tool to demonstrate the use of Data Model in Cassandra
+                                                </li>
+                                            </ul>
+                                            <!--<a style="margin-left: 14em;" onclick="ga('send', 'event', 'Resume', 'View_more', 'SIT_ViewMore');">View More </a>-->
                                         </li>
                                     </ul>
+                                </div>
+                                <div class="g1 pro">
+                                    <div class="sidebar" style="padding-bottom: 52%; margin-bottom: -100%;">
+                                        <p>
+                                            Technologies used: Java, J2EE, PostgreSQL, Amazon AWS, EC2
+                                        </p>
+                                        <p>
+                                                    <!-- Place this tag where you want the button to render. -->
+                                            <a class="github-button" href="https://github.com/ppandya17/ClinicApp" data-size="large" aria-label="Watch ppandya17/ClinicApp on GitHub">View on GitHub</a>
+                                        </p>
+                                    </div>
                                 </div>
                             </li>
-                        </ul> -->
-
-                    <!--<div class="g1">
-                            <div class="image">
-                                <img src="http://lorempixel.com/306/306/sports/1" alt="">
-                                <div>
-                                    <h5>
-                                        Clinic App
-                                    </h5>
-                                </div>
-                                <br/>
-                                <div>
-                                    <ul>
-                                        <li>
-                                            Developed a clinic application managing details of patients, providers and treatment provided
-                                        </li>
-                                        <li>
-                                            Implemented REST and SOAP services using JAX-WS and JAS-RS respectively in EJB framework
-                                        </li>
-                                        <li>
-                                            Hosted on EC2 instance of AWS and Postgres database for Service Oriented Architecture using XML
-                                        </li>
-                                        <li>
-                                            Used Apache Cassandra with DataStax DevCenter tool to demonstrate the use of Data Model in Cassandra
+                            <li style="overflow: hidden;">
+                                <div class="g2 pro">
+                                    <ul class="no-list work">
+                                        <li style="overflow: hidden;">
+                                            <div>
+                                                <h5>
+                                                    Image Sharing with Cloud
+                                                </h5><span class="label label-info">August 2017 - December 2017</span>
+                                            </div> 
+                                            <br/>
+                                            <div>
+                                                <h6>
+                                                    Enterprise and Cloud Computing
+                                                </h6>
+                                            </div>
+                                            <ul style="clear:both; list-style-type: circle !important;">
+                                                <li>
+                                                    Coded C#(MVC) application for large-scale enterprise computing, deployed App and Web Services in cloud.
+                                                </li>
+                                                <li>
+                                                    Used cloud frameworks and NoSQL data stores for enterprise application including Azure Blob storage.
+                                                </li>
+                                                <li>
+                                                    Deployed Azure Table storage and Web Services for B2B including Azure Service Bus and App service security.
+                                                </li>
+                                            </ul>
+                                            <!--<a style="margin-left: 14em;" onclick="ga('send', 'event', 'Resume', 'View_more', 'SIT_ViewMore');">View More </a>-->
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="http://lorempixel.com/606/606/sports/1" class="btn">Full View</a>
+                                <div class="g1 pro">
+                                    <div class="sidebar" style="padding-bottom: 34%; margin-bottom: -100%;">
+                                        <p>
+                                            Technologies used: C#, .NET framework, MVC, Microsoft Azure, SQL Server, NoSQL, REST API, Azure BLOB Storage, Azure Table Storage, App Service Security
+                                        </p>
+                                        <p>
+                                            <!-- Place this tag where you want the button to render. -->
+                                            <a class="github-button" href="https://github.com/ppandya17/ImageSharingWithCloudService" data-size="large" aria-label="Watch ppandya17/ImageSharingWithCloudService on GitHub">View on GitHub</a>
+                                        </p> 
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div >
-                            <div class="image">
-                                <img src="http://lorempixel.com/306/306/sports/2" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="http://lorempixel.com/606/606/sports/2" class="btn">Full View</a>
+                            </li>
+                            <li style="overflow: hidden;">
+                                <div class="g2 pro">
+                                    <ul class="no-list work">
+                                        <li style="overflow: hidden;">
+                                            <div>
+                                                <h5>
+                                                    GEDCOM Parser
+                                                </h5><span class="label label-info">January 2017 - April 2017</span>
+                                            </div> 
+                                            <br/>
+                                            <div>
+                                                <h6>
+                                                    Agile Software Developement
+                                                </h6>
+                                            </div>
+                                            <ul style="clear:both; list-style-type: circle !important;">
+                                                <li>
+                                                    Programmed a Parser to read GEDCOM file in Python. Used PyUnit to unit test the parser code
+                                                </li>
+                                                <li>
+                                                    Used object-oriented python class models and dictionary and list data structures for storing and evaluating    
+                                                </li>
+                                                <li>
+                                                    Used Agile scrum methodology to develop the project and executed four sprints to complete it
+                                                </li>
+                                            </ul>
+                                            <!--<a style="margin-left: 14em;" onclick="ga('send', 'event', 'Resume', 'View_more', 'SIT_ViewMore');">View More </a>-->
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="g1 pro">
+                                    <div class="sidebar" style="padding-bottom: 35%; margin-bottom: -100%;">
+                                        <p>
+                                            Technologies Used: Python, PyUnit, Agile Methodology, Used Python in OOP
+                                        </p>
+                                        <p>
+                                                <!-- Place this tag where you want the button to render. -->
+                                                <a class="github-button" href="https://github.com/ppandya17/GEDCOMProject" data-size="large" aria-label="Watch ppandya17/GEDCOMProject on GitHub">View on GitHub</a>
+                                        </p>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div >
-                            <div class="image">
-                                <img src="http://lorempixel.com/306/306/sports/3" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="http://lorempixel.com/606/606/sports/3" class="btn">Full View</a>
+                            </li>
+                            <li style="overflow: hidden;">
+                                <div class="g2 pro">
+                                    <ul class="no-list work">
+                                        <li style="overflow: hidden;">
+                                            <div>
+                                                <h5>
+                                                    Change Point Event Detection
+                                                </h5><span class="label label-info">August 2016 - December 2017</span>
+                                            </div> 
+                                            <br/>
+                                            <div>
+                                                <h6>
+                                                    Web Analytics
+                                                </h6>
+                                            </div>
+                                            <ul style="clear:both; list-style-type: circle !important;">
+                                                <li>
+                                                    Participated in Yelp Dataset Challange as a semester project.    
+                                                </li>
+                                                <li>
+                                                    Parse large JSON dataset in order to map multiple records and construct our results for every restaurent businesses
+                                                </li>
+                                                <li>
+                                                    Used T-Test and Fisher Test to analyse data and build final dataset
+                                                </li>
+                                                <li>
+                                                    Written Python code to detect changing event as a restaurant change something in a particular restaurant item that affects customers of that restaurant.
+                                                </li>
+                                            </ul>
+                                            <!--<a style="margin-left: 14em;" onclick="ga('send', 'event', 'Resume', 'View_more', 'SIT_ViewMore');">View More </a>-->
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="g1 pro">
+                                    <div class="sidebar" style="padding-bottom: 48%; margin-bottom: -100%;">
+                                        <p>
+                                            Technologies Used: Python, JSON, Web Scrapping
+                                        </p>
+                                        <p>
+                                            <!-- Place this tag where you want the button to render. -->
+                                            <a class="github-button" href="https://github.com/ppandya17/ChangePointsDetection" data-size="large" aria-label="Watch ppandya17/ChangePointsDetection on GitHub">View on GitHub</a>
+                                        </p>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="break"></div>
-                        <div >
-                            <div class="image">
-                                <img src="http://lorempixel.com/306/306/sports/4" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="http://lorempixel.com/606/606/sports/4" class="btn">Full View</a>
+                            </li>
+                            <li style="overflow: hidden;">
+                                <div class="g2 pro">
+                                    <ul class="no-list work">
+                                        <li style="overflow: hidden;">
+                                            <div>
+                                                <h5>
+                                                    ITM - Interactive Task Manager
+                                                </h5><span class="label label-info">August 2016 - December 2016</span>
+                                            </div> 
+                                            <br/>
+                                            <div>
+                                                <h6>
+                                                    Human-Computer Interaction
+                                                </h6>
+                                            </div>
+                                            <ul style="clear:both; list-style-type: circle !important;">
+                                                <li>
+                                                    Built an Interactive Task Manager using HTML5, CSS3, Javascript, JQuery and Bootstrap framework.    
+                                                </li>
+                                                <li>
+                                                    Implemented a game of "Snake and Ladder" in ITM so that users can play it in micro breaks.
+                                                </li>
+                                            </ul>
+                                            <!--<a style="margin-left: 14em;" onclick="ga('send', 'event', 'Resume', 'View_more', 'SIT_ViewMore');">View More </a>-->
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="g1 pro">
+                                    <div class="sidebar" style="padding-bottom: 15%; margin-bottom: -100%;">
+                                        <p>
+                                            Technologies Used: HTML, CSS, JavaScript, JQuery, Bootstrap, AngularJS
+                                        </p>
+                                        <p>
+                                            <!-- Place this tag where you want the button to render. -->
+                                            <a class="github-button" href="https://github.com/ppandya17/Human-Computer-Interaction" data-size="large" aria-label="Watch ppandya17/Human-Computer-Interaction on GitHub">View on GitHub</a>
+                                        </p>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div >
-                            <div class="image">
-                                <img src="http://lorempixel.com/306/306/sports/5" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="http://lorempixel.com/606/606/sports/5" class="btn">Full View</a>
+                            </li>
+                            <li style="overflow: hidden;">
+                                <div class="g2 pro">
+                                    <ul class="no-list work">
+                                        <li style="overflow: hidden;">
+                                            <div>
+                                                <h5>
+                                                    DocuCloud - Document on Cloud
+                                                </h5><span class="label label-info">August 2013 - April 2014</span>
+                                            </div> 
+                                            <br/>
+                                            <div>
+                                                <h6>
+                                                    Bachelor Project
+                                                </h6>
+                                            </div>
+                                            <ul style="clear:both; list-style-type: circle !important;">
+                                                <li>
+                                                    DocuCloud is a cloud storage system that gives access to the cloud storage for sharing and storing the books and study material and even podcast videos for students.      
+                                                </li>
+                                                <li>
+                                                    It gives access to students to the question answer forum which is organized by classes and subjects.     
+                                                </li>
+                                                <li>
+                                                    Users can request perticular file from another user's public storage.     
+                                                </li>
+                                                <li>
+                                                    It also includes a calender function to activity planning
+                                                </li>
+                                            </ul>
+                                            <!--<a style="margin-left: 14em;" onclick="ga('send', 'event', 'Resume', 'View_more', 'SIT_ViewMore');">View More </a>-->
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="g1 pro">
+                                    <div class="sidebar" style="padding-bottom: 48%; margin-bottom: -100%;">
+                                        <p>
+                                            Technologies Used: Java, J2EE, Hibernate, HTML, CSS3, Bootstrap, MySQL, REST API
+                                        </p>
+                                        <p>
+                                            <!-- Place this tag where you want the button to render. -->
+                                            <a class="github-button" href="https://github.com/ppandya17/DocuCloud" data-size="large" aria-label="Watch ppandya17/DocuCloud on GitHub">View on GitHub</a>
+                                        </p>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div >
-                            <div class="image">
-                                <img src="http://lorempixel.com/306/306/business/2" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="http://lorempixel.com/606/606/business/2" class="btn">Full View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>-->
-                        
+                            </li> 
+                        </ul>
                     </section>
                 </div>
               <!-- End Portfolio Data -->
@@ -593,7 +736,7 @@
                             </div>
                             <div class="sny-icon-content">
                               <h4>My Address</h4>
-                              <p>Some Apartment 405 in a jungle nearby a restaurant</p>
+                              <p>33 Nelson Ave, Jersey City, NJ 07307, USA</p>
                             </div>
                          </div>
                        </div>
@@ -604,7 +747,7 @@
                             </div>
                             <div class="sny-icon-content">
                               <h4>Mobile Number</h4>
-                              <p>999-9999-999<br/>999-1112-999</p>
+                              <p>551-229-5279</p>
                             </div>
                          </div>
                        </div>
